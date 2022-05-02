@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Interface</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/booking.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"> -->
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./res/logo.png" alt="logo" width="70" height="70">
+        <nav>
+            <ul class="nav__links">
+                <li><a href="./sign.html">Sign up </a></li>
+                <li><a href="./register.html">Register</a></li>
+                <li>
+                    <a href="http://www.indianrail.gov.in/enquiry/StaticPages/StaticEnquiry.jsp?StaticPage=index.html">
+                        About us
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <a href="./contact.html" class="cta3"><button>Contact Us</button></a>
+    </header>
+
+    <div class="main">
+        <div class="register">
+            <h2>Search Interface</h2>
+            <form id="register" action="train_info.php" method="post">
+                <label> Travelling form</label>
+                <input type="text" name="from" placeholder="Source Station">
+
+                <label>Travelling To</label>
+                <input type="text" name="to" placeholder="Destination Station">
+
+                <label>Departing</label>
+                <input type="date" name="date" placeholder="Date Of Travel">
+
+                <label>Adults</label>
+                <input type="number" name="adult" placeholder="No. of Adults">
+
+                <label>Child</label>
+                <input type="number" name="child" placeholder="No. of Children">
+
+                <label>Travel Class</label>
+                <select name="class">
+                    <option value="first">1st</option>
+                    <option value="second">2nd</option>
+                    <option value="second">3rd</option>
+                </select>
+
+                <input type="submit" value="Submit" name="submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

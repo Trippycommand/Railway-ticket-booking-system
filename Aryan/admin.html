@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+    <header><img class="logo" src="./logo.png" alt="logo" width="150" height="150"></header>
+    
+    <div class="container">
+        <div class="title">Admin Page</div>
+        <form action="admin.php" method="post">
+            <div class="user-information">
+                <div class="input-box">
+                    <span class="detail"> Train Name</span>
+                    <input type="text" name="TrainName" placeholder="Enter The Train Name", required >
+                </div>
+                <div class="input-box">
+                    <span class="detail"> Train Number</span>
+                    <input type="number" name="TrainNumber" placeholder="Enter The Train Number" >
+                </div>
+                <div class="input-box">
+                    <span class="detail"> Travelling form</span>
+                    <input type="text" name="Travellingfrom" placeholder="Enter The Source Station " >
+                </div>
+                <div class="input-box">
+                    <span class="detail"> Travelling To</span>
+                    <input type="text" name="TravellingTo" placeholder="Enter The Final Station" >
+                </div>
+                <div class="input-box">
+                    <span class="detail">	Departing Date</span>
+                    <input type="date" name="DepartingDate" placeholder="Enter The Date Of Departure",required >
+                </div>
+                <p class="link1">Click  This To Check: <a href="http://localhost/Aryan/trainfo.php"> Here </a></p>
+                
+            </div>
+           
+            
+            <div class="button">
+                <input  type="submit" value="Registered" >
+            </div>
+            <p class="link2">Enter Train Details </p>
+        </form>
+    
+    </body>
+</html>

@@ -1,0 +1,24 @@
+body {
+    background-image: url(../res/booking.jpg);
+}
+
+h2 {
+    text-align: center;
+}
+
+div.main {
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+
+div.register {
+    background-color: rgba(0, 0, 0, 0.356);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.215);
+    color: aliceblue;
+    margin: 40px;
+
+}

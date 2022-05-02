@@ -1,0 +1,100 @@
+body {
+    background-image: url(../res/sign.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.box {
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(21, 20, 20, 0.628);
+    text-align: center;
+    border: 2px solid rgba(185, 13, 50, 0.822);
+    border-radius: 15px;
+
+
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    font-size: 20px;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #0088a9;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box input[type="text"]:hover,
+.box input[type="password"]:hover {
+    width: 280px;
+    border-color: #7fff00;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 280px;
+    border-color: #a8c988;
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #7fff00;
+    padding: 14px 50px;
+    outline: none;
+    color: rgb(241, 231, 231);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+    background: #77df0ecc;
+}
+
+.link {
+    color: rgb(235, 242, 247);
+    font-size: 20px;
+    padding: 2px;
+    margin: 2px;
+    font-weight: 1000;
+
+}
+
+.conatiner {
+    font-size: 15px;
+    color: white;
+    background-color: rgba(14, 12, 12, 0.795);
+    padding: 5px 650px;
+    display: flex;
+
+}
+
+.quick {
+    color: rgb(245, 228, 228);
+    font-size: 20px;
+}

@@ -1,0 +1,49 @@
+body {
+    background-image: url(../res/passenger_info.jpg);
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.621);
+    color: #fff;
+    width: 90%;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 20px 50px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+form {
+    width: 95%;
+    margin: 20px auto;
+}
+
+form>div {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+H3 {
+    margin-top: 30PX;
+}
+
+input,
+select {
+    width: 200px !important;
+}
+
+input[type="submit"] {
+    width: 200px;
+    padding: 12px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    background-color: orchid;
+    color: #fff;
+    cursor: pointer;
+    margin: 55px auto;
+}

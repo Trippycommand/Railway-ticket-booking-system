@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./res/logo.png" alt="logo" width="70" height="70">
+        <nav>
+            <ul class="nav__links">
+                <li><a href="./sign.html">Sign up </a></li>
+                <li><a href="./register.html">Register</a></li>
+                <li>
+                    <a href="http://www.indianrail.gov.in/enquiry/StaticPages/StaticEnquiry.jsp?StaticPage=index.html">
+                        About us
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <a href="./contact.html" class="cta3"><button>Contact Us</button></a>
+    </header>
+
+    <div class="container">
+        <div class="title">Resgistration</div>
+        <form action="index.php" method="post">
+            <div class="user-information">
+                <div class="input-box">
+                    <span class="detail"> Full Name</span>
+                    <input type="text" name="Fullname" placeholder="Enter your name">
+                </div>
+                <div class="input-box">
+                    <span class="detail"> Username</span>
+                    <input type="text" name="Username" placeholder="Enter your Username">
+                </div>
+                <div class="input-box">
+                    <span class="detail"> Email address</span>
+                    <input type="email" name="Email" placeholder="Enter your Email " required>
+                </div>
+                <div class="input-box">
+                    <span class="detail"> Phone Number</span>
+                    <input type="number" name="Phone" placeholder="Enter your Number">
+                </div>
+                <div class="input-box">
+                    <span class="detail"> Password </span>
+                    <input type="text" name="Password" placeholder="Enter your password">
+                </div>
+                <div class="input-box">
+                    <span class="detail"> Confirm Password</span>
+                    <input type="password" name="ConfirmPassword" placeholder="Confirm your password">
+                </div>
+            </div>
+
+
+            <div class="button">
+                <input type="submit" value="Registered">
+            </div>
+
+            <p class="link2">You already have a account ?
+                <a class="Login" href="./sign.html">Login Here</a>
+            </p>
+        </form>
+
+</body>
+
+</html>
